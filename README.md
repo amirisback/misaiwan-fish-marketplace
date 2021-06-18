@@ -30,7 +30,7 @@ This Is Latest Release
 ![ScreenShoot Apps](docs/image/Krupuk.jpg?raw=true)
 
 ### Bibit
-![ScreenShoot Apps](docs/image/Bibitss.jpg?raw=true)
+![ScreenShoot Apps](docs/image/Bibit.jpg?raw=true)
 
 
 ## Colaborator
