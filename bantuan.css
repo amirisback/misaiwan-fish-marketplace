@@ -1,0 +1,53 @@
+
+    div.bodyinside {
+            padding: 0px 150px 0px 150px;
+            min-height: 570px;
+            height: auto;
+            margin: auto;
+        }
+
+input[type=text].pesanikan, select.pesanikan, input[type=password].pesanikan {
+width: 100%;
+padding: 20px 20px;
+margin: 8px 0;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+font-family: arial;
+box-shadow: 0px 1px 1px 1px lightgrey;
+
+}
+
+input[type=submit].kirim {
+width: 100%;
+height: auto;
+padding: 10px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+font-style: italic;
+background-color: #009688;
+cursor: pointer;
+color: white;
+text-align: center;
+}
+
+label {
+color: black;
+font-family: arial;
+
+}
+
+div.judulnya {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    font-family: Arial black;
+    margin-top: 20px;
+    color: #3F51B5;
+    font-style: italic;
+}
+
+input[type="submit"].kirim:hover {
+background-color: #B71C1C;
+color: white;
+}

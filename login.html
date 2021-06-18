@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<style>
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: arial;
+    display: inline;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: arial;
+}
+
+footer {
+    margin-bottom: auto;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+h2 {
+    font-family: Arial;
+    color: grey;
+}
+
+img.avatar {
+    width: 16%;
+    border-radius: 50%;
+    border: 1px solid grey;
+    box-shadow: 0px 5px 5px 0px lightgrey;
+}
+
+.container {
+    padding: 10px 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+label {
+    font-family: Arial;
+}
+
+div.body {
+    padding: 0px 250px;
+}
+
+a {
+text-decoration: none;
+color: blue;
+font-family: arial;
+}
+
+a.buttons {
+    color: white;
+}
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+       font-family: arial;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+.cancelbtn:hover {
+    background: blue;
+}
+</style>
+<body>
+
+<h2><center>..:: LOGIN ADMIN ::..</center></h2>
+
+<center><form action="action_page.php"></center>
+  <div class="imgcontainer">
+        <img src="q.jpg" class="avatar">
+  </div>
+
+<div class="body">
+
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit" class="login">LOGIN</button>
+    <input type="checkbox"> <p>Remember Me</p>
+  </div>
+
+
+
+
+</form>
+
+<footer>
+    </div>
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn"><a class="buttons" href="index.html"> Cancel</a> </button>
+    <span class="psw"> <a href="#">Forgot Password ?</a></span>
+  </div>
+</footer>
+</body>
+</html>

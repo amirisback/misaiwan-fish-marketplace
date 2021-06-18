@@ -1,0 +1,49 @@
+
+article{
+    max-width: 1050px;
+    width: 80%;
+    margin: 40px auto;
+    font-family:"Joesfin";
+    text-align: center;
+}
+article div.produk{
+    width: 32.5%;
+    display: inline-block;
+    margin:10px 0;
+    position: relative;
+    transition-duration: 0.4%;
+    padding-top: 40px;
+
+
+}
+article div.produk:hover{
+    transform: scale(1.02);
+}
+article div.produk:hover div.produk1{
+    background-color: rgba(255,255,255,0.5);
+}
+article div.produk img{
+    width: 90%;
+    height: 90%;
+
+}
+article div.produk div.produk1{
+    width: 90%;
+    margin: 0 auto 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    font-family: arial;
+
+}
+article div.produk div.produk1 p{
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-style italic;
+    font-size: 14px;
+    padding: 5px;
+}
+

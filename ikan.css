@@ -1,0 +1,114 @@
+div.bodyinside {
+                padding: 0px 75px;
+                height: auto;
+                min-height: 1250px;
+            }
+
+
+            div.images {
+                width: 320px;
+                height: 0px;
+                position: relative;
+                padding: 20px 0px 0px 0px;
+            }
+
+            img.pic {
+            border-radius: 20px;
+            width: 300px;
+            height: 200px;
+            box-shadow: 0px 5px 20px 0px grey;
+            position: relative;
+            margin: 20px 0px;
+            opacity: 0.7;
+         }
+
+           div.text {
+                width: 320px;
+                height: 0px;
+                position: relative;
+                padding: 0px 0px 5px 0px;
+                margin: -1px 0px 0px 920px;
+            }
+
+            div.isitext {
+            width: 300px;
+            height: 200px;
+            padding: 20px 0px 25px 30px;
+            position: relative;
+      
+         }
+
+
+         p.namaikan {
+            font-family: Arial;
+            font-size: 30px;
+            color: #004D40;
+            font-style: italic;
+            font-weight: bold;
+         }
+
+         p.harga {
+            font-family: Arial;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+            margin: -20px 0px 0px 0px;
+
+         }
+         a.pesanan{
+             display: inline-block;
+             font-family: Arial;
+             font-size: 16px;
+             font-weight: bold;
+             color: white;
+             margin: 5px auto;
+             padding: 10px;
+             background: linear-gradient(to left, #E65100,#B71c1c);
+             border: 1px solid silver;
+             border-radius: 10px;
+         }
+
+         a.pesanan:hover {
+            transition-duration: 3;
+            transform: scale(0.8);
+         }
+
+         img.pic:hover {
+            transform: scale(1.2);
+            opacity: 1;
+
+         }
+
+         div.backtext {
+            background: #E8EAF6;
+            padding: 7px 0px 7px 30px;
+            border-radius: 20px;
+            box-shadow: 0px 3px 3px 0px lightgrey;
+         }
+
+        div.describe {
+                width: auto;
+                height: 0px;
+                position: relative;
+                padding: 0px 0px 5px 0px;
+                margin: 0px 0px 0px 320px;
+            }
+
+        div.backdescribe {
+            background: #E0F2F1;
+            padding: 7px 30px 7px 30px;
+            border-radius: 20px;
+            box-shadow: 0px 3px 3px 0px lightgrey;
+            text-align: justify;
+         }
+
+             div.isidescribe {
+            width: 550px;
+            height: 200px;
+            padding: 20px 0px 25px 30px;
+            position: relative;
+         } 
+
+         p.penjelasan {
+            font-family: arial;
+         }

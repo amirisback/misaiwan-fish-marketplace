@@ -1,0 +1,138 @@
+		img.pic {
+		 	border-radius: 100px;
+		 	width: 350px;
+		 	height:	280px;
+		 	box-shadow: 0px 5px 5px 0px grey;
+		 	position: relative;
+		 	opacity: 0.7;
+		 	margin: 50px 0px 0px 500px;
+		 }
+
+		 img.pics {
+		 	border-radius: 30px;
+		 	width: 125px;
+		 	height:	125px;
+		 	box-shadow: 0px 5px 5px 0px grey;
+		 	position: relative;
+		 	margin: 30px 0px 0px 180px;
+		 }
+		 
+		 img.pics2 {
+		 	border-radius: 30px;
+		 	width: 125px;
+		 	height:	125px;
+		 	box-shadow: 0px 5px 5px 0px grey;
+		 	position: relative;
+		 	margin: 30px 0px 0px 50px;
+		 }
+
+		 img.pics:hover {
+		 	transform: scale(1.1);
+		 }
+		 
+		 img.pics2:hover {
+		 	transform: scale(1.1);
+		 }
+
+		 p.produk {
+		 	box-shadow: 5px 5px 5px lightgrey;
+		 	display: inline-block;
+		 	background: #006064;
+		 	font-size: 12px;
+		 	color: white;
+		 	position: relative;
+		 	margin: 10px 0px 0px 215px;
+		 	font-family: arial;
+		 	border-radius: 10px;
+		 	padding: 5px 10px 5px 10px;
+		 }
+
+		 p.produks {
+		 	box-shadow: 5px 5px 5px lightgrey;
+		 	display: inline-block;
+		 	background: #006064;
+		 	font-size: 12px;
+		 	color: white;
+		 	position: relative;
+		 	margin: 10px 0px 0px 120px;
+		 	font-family: arial;
+		 	border-radius: 10px;
+		 	padding: 5px 10px 5px 10px;
+		 }
+
+		 p.misaiwan {
+		 	font-family: Courier New, Courier, monospace;
+		 	font-size: 50px;
+		 	color: #E65100;
+		 	position: absolute;
+			margin: 50px 0px 0px 230px;
+		 	text-shadow: 2px 2px 2px lightgrey;
+		 }
+
+		  p.ikan {
+		 	font-family: Courier New, Courier, monospace;
+		 	font-size: 40px;
+		 	color: #E65100;
+		 	position: absolute;
+			margin: 100px 0px 0px 230px;
+		 	text-shadow: 2px 2px 2px lightgrey;
+		 }
+
+		p.text1 {
+		 	font-family: arial;
+		 	font-size: 20px;
+		 	color: black;
+		 	position: absolute;
+			margin: 155px 0px 0px 127px;
+		 	text-shadow: 2px 2px 2px lightgrey;
+		 }
+
+		 p.text {
+		 	font-family: arial;
+		 	font-size: 20px;
+		 	color: black;
+		 	position: absolute;
+			margin: 185px 0px 0px 165px;
+		 	text-shadow: 2px 2px 2px lightgrey;
+		 
+		}
+		  .pesan {
+		 	box-shadow: 5px 5px 5px lightgrey;
+		 	display: inline-block;
+		 	background: linear-gradient(to left, #E65100, #B71C1C);
+		 	position: absolute;
+		 	color: white;
+		 	margin: 220px 0px 0px 275px;
+		 	font-family: arial;
+		 	border-radius: 10px;
+		 	padding: 10px 20px 10px 20px;
+
+		 }
+		 
+
+
+		p.pesan:hover {
+			background: #2196F3;
+			display: inline-block;
+			color: white;
+		}
+
+		p.produks:hover {
+			background-color: #EF6C00;
+			color:	#455A64;
+			opacity: 0.7;
+			transform:	scale(1.5);
+		}
+		
+		p.produk:hover {
+			background-color: #EF6C00;
+			color:	#455A64;
+			opacity: 0.7;
+			transform:	scale(1.5);
+		}
+
+		div.bodyinside {
+			padding: 0px 150px 0px 150px;
+			min-height: 570px;
+		}
+		
